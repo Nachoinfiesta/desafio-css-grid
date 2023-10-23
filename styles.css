@@ -36,6 +36,8 @@ header h2{
 }
 
 menu {
+  display: flex;
+  flex-direction: column;
   grid-area: B;
   background: rgb(219, 200, 243);
   padding: 2px;
@@ -49,6 +51,7 @@ footer {
   grid-area: D;
   border: solid beige 2px;
   background: rgb(237, 237, 240);
+  text-align: center;
 }
 
 .grid-item {
