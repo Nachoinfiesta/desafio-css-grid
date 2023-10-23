@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background: goldenrod;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "A A" "B C" "D D";
+}
+
+.grid-container-1 {
+  grid-area: C;
+  background: rgb(219, 200, 243);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: end;
+  padding: 20px;
+}
+
+header {
+  grid-area: A;
+  padding: 0px;
+  background: rgb(27, 17, 167);
+  justify-content: left;
+  margin-top: 0px;
+  text-align: center;
+
+  
+}
+header h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: antiquewhite
+}
+
+menu {
+  grid-area: B;
+  background: rgb(219, 200, 243);
+  padding: 2px;
+  justify-content: left;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+footer {
+  grid-area: D;
+  border: solid beige 2px;
+  background: rgb(237, 237, 240);
+}
+
+.grid-item {
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  background: white;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-rows: 60% 30% 10%;
+}
+
+.grid-item img {
+  width: 300px;
+  height: 270px;
+  object-fit: cover;
+  justify-content: center;
+}
+
+.caja-1 {
+  background: rgb(28, 61, 209);
+  border-top: solid black 2px;
+}
+
+.caja-2 {
+  background: rgb(28, 61, 209);
+  border-top: solid black 2px;
+}
+
+.caja-3 {
+  background: rgb(28, 61, 209);
+  border-top: solid black 2px;
+}
+
+.caja-4 {
+  background: rgb(28, 61, 209);
+  border-top: solid black 2px;
+}
+
+.caja-5 {
+  background: rgb(28, 61, 209);
+  border-top: solid black 2px;
+}
+
+.caja-6 {
+  background: rgb(28, 61, 209);
+  border-top: solid black 2px;
+}
+
+.caja-6 {
+  background: rgb(28, 61, 209);
+  border-top: solid black 2px;
+}
+
+.caja-7 {
+  background: rgb(28, 61, 209);
+  border-top: solid black 2px;
+}
+
+/*# sourceMappingURL=styles.css.map */
