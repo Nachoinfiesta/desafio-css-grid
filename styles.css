@@ -5,6 +5,9 @@
 body {
   background: goldenrod;
 }
+h2{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 .grid-container {
   display: grid;
